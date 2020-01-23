@@ -2,17 +2,6 @@ import java.util.*;
 
 public class Creation {
     public static void main(String[] args) {
-        MyArrayList<Student> listToTest = new MyArrayList<>();
-        listToTest.add(new Student("Levon", "Mazmanyan", 43));
-        listToTest.add(new Student("Zara", "Ordyan", 42));
-        listToTest.add(new Student("Nune", "Mazmanyan", 15));
-        System.out.println("Current size is " + listToTest.size());
-        Student s1 = new Student("James", "Bond", 43);
-        Student s2 = new Student("Mark", "Levi", 59);
-        listToTest.add(s1);
-        listToTest.add(s2);
-        System.out.println("Size after adding 2 students " + listToTest.size());
-        System.out.println(listToTest.get(3));
 
         ArrayList<Student> studnetsList = new ArrayList();
         studnetsList.add(new Student("Lilit", "Mazmanyan", 19));

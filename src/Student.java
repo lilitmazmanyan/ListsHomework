@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.Comparator;
-
 public class Student implements Comparable<Student> {
     String firstName;
     String lastName;
@@ -15,6 +12,10 @@ public class Student implements Comparable<Student> {
     @Override
     public String toString() {
         return firstName + " " + lastName + " is " + age + " years old.";
+    }
+
+    public String toString(Student s) {
+        return s.firstName + " " + s.lastName + " is " + s.age + " years old.";
     }
 
     @Override
